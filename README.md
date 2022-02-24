@@ -1,14 +1,18 @@
 # sqld-for-beginner
 sqld certificate for beginner :baby_chick:
 
+## SQLD 문제풀이 너튜브
+https://www.youtube.com/c/%EC%A0%84%EA%B4%91%EC%B2%A0OCP/videos
+
 ### Organizer
-- 지유
 - 다은
 - 민영
 - 정배
 - 준호
 - 근환
-- 상원 
+- 상원
+- 영준
+- 인석
 
 ### 규칙
 1. 항상 pull을 먼저 받아야 합니다.
