@@ -40,7 +40,7 @@ d.dname = 'RESEARCH'
 => 메인쿼리에 emp테이블이 있기때문에 서브쿼리의 JOIN조건은 메인쿼리에도 영향을 줌(***서브쿼리 WHERE절에 참조키가 중요하다!!!)
 
 ```
-3. EXISTS 사용시 서브쿼리에 오는 select절은 의미가 없다.
+3. EXISTS 사용시 서브쿼리에 오는 select절은 의미가 없다.(데이터가 있는지 없는지만 중요하기에~)
 :  x, 1, * 과 같은 어떤 데이터를 넣던 결과는 메인쿼리에서 반영됨.
 
 ```sql
@@ -62,7 +62,9 @@ where d.sal > 9000
 
 - ### 참조를 하지 않아도 (join 조건이 없어도) join이 가능하다. 
 
-만약, sangwon 컬럼을 insert했고 참조를 안했다고 가정
+만약, sangwon 컬럼을 insert했고 참조(FK 설정을)를 안했다고 가정.
+(단, sangwon 컬럼과 deptno의 데이터 타입은 동일해야 한다.)
+
 
 ```sql
 select 
@@ -93,7 +95,9 @@ NOT EXISTS-> NULL을 포함해서 출력
      <img src="https://user-images.githubusercontent.com/96815399/155834982-31d55438-a5a6-4e95-a68d-59bf5359ff1d.PNG"  width="500" height="600">
 
 
-
+ 답변
+  오~ 다은씨 주말에도 열공 감사합니다 :)
+  동작테이블에 배터리코드가 필요 없을거 같아요 ~ 
 
     
 
