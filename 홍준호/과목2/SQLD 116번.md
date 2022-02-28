@@ -2,8 +2,8 @@
 　   
 　   
 COUNT(*) OVER(ORDER BY AVG(상품가격)  
-　　　　　　　　<B>RANGE BETWEEN 10000 PRECEDING  
-　　　　　　　　AND 10000 FOLLOWINNG)</B>  
+　　　　　　　　<B><I>RANGE BETWEEN 10000 PRECEDING  
+　　　　　　　　AND 10000 FOLLOWINNG)</I></B>  
 　   
 　   
 를 모르겠습니다.
