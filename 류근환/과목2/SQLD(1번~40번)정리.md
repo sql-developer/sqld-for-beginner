@@ -61,12 +61,15 @@ ADD COLUMN '컬럼명' 타입(길이) 제약조건,
 .
 3. 컬럼 맨앞에 추가
  ALTER TABLE `테이블명` ADD `새컬럼명` 타입(길이) 제약조건 FIRST
+
 4. 컬럼 중간에 추가
   ALTER TABLE `테이블명` ADD `새컬럼명` 타입(길이) 제약조건 AFTER '앞컬럼명'
+
 5. COLUMN 속성 변경
   ALTER TABLE '테이블명' ALTER COLUMN '컬럼명' 타입(길이) 제약조건
+
 6. 테이블 내 불필요한 column(열) 삭제
-  ALTER TABLE '테이블명' DROP COLUMN '컬럼명'
+  ALTER TABLE '테이블명' DROP '컬럼명'
 ```
 
 ## DDL-TRUNCATE
