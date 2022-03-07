@@ -1,0 +1,1 @@
+# <a href ="https://gent.tistory.com/287">IN,ANY,ALL 함수</a> 
