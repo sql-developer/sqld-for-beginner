@@ -15,11 +15,11 @@ RANK(),ROW_NUMBER(),DENSE_RANK() + OVER는 순위를 메기는 함수
 ## PARTITION by 함수
 
 ```sql
--- 1. 분석함수(OVER())와 함께 사용되는 그룹함수!
+-- 1. 순위함수(OVER())와 함께 사용되는 그룹함수!
 -- 2. GROUP BY의 대체제
 -- **3. 분석함수를 사용할 때는 OVER 절을 함께 사용해야 하며, OVER 절 내부에 PARTITION BY 절을 사용하지 않으면 쿼리 결과 전체를 집계하며 PARTITION BY 절을 사용하면 쿼리 결과에서 해당 칼럼을 그룹으로 묶어서 결과를 표시한다.()
 -- 4. 테이블의 로우(행, 레코드)를 그룹핑 하여 집계를 하는 함수
--- 5. 실행순서는 FROM->WHERE->GROUP BY->HAVING->ORDER BY->OVER(마지막순서)
+-- 5. 실행순서는 FROM->WHERE->GROUP BY->HAVING->SELECT->ORDER BY->OVER(마지막순서)
 ex)
 SELECT
     DEPTNO
