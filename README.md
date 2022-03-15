@@ -4,13 +4,13 @@ sqld certificate for beginner :baby_chick:
 ## SQLD 문제풀이 너튜브
 https://www.youtube.com/c/%EC%A0%84%EA%B4%91%EC%B2%A0OCP/videos
 
-### Organizer
+### 1기 Organizer(~ 03/12)
 - 다은
 - 민영
 - 정배
 - 준호
 - 근환
-- 상원
+- 상원 (master)
 - 영준
 - 인석
 
